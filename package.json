@@ -1,6 +1,6 @@
 {
   "name": "@moonhr/sheets-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Google Sheets client for form-based data collection",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -12,7 +12,9 @@
       "require": "./dist/index.js"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch"
@@ -24,6 +26,10 @@
     "tsup": "^8.0.0",
     "typescript": "^5.0.0"
   },
-  "keywords": ["google-sheets", "spreadsheet", "form"],
+  "keywords": [
+    "google-sheets",
+    "spreadsheet",
+    "form"
+  ],
   "license": "MIT"
 }
